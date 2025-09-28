@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Scaling Complexity</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Versible</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html#ethos">Ethos</a></li>
+								<li><a href="index.html#models">Models</a></li>
+								<li><a href="index.html#footer">Contact</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Scaling Complexity</h2>
+Why does delivering complex data applications take so long / cost so much / need so many people?  Is this because we intuatively assume delivery effort scales linearly with complexity?  But this mis-understands the nature of data application complexity, which stems from the <i>relationships</i> between parts of the solution, more than the number of parts per se.  A solution with twice as many parts could have quadruple the number of relationships which drive the amount of time/cost/people needed.  Recognising this forces us to challenge some deeply held concepts for how delivery teams should work.
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+									<img src="images/scale_complexity.jpg" alt="" /><br><br>
+								
+<p>Say you have 10 days for a project.  If 10 people can create 100 widgets in those 10 days, how many people would be needed to create 200 widgets?  Answer 20.  Because a widget in the context is something small and simple such that a person creates 10 each day.</p>
+
+<p>Unfortunately, complex applications aren't made up of simple widgets.  And even if they were, the overall solution is rarely as simple as the addative result of lots of simple widgets.</p>
+
+<p>An application made of 2 widgets has 1 widget-widget relationship.  The 3 widget application, 3 widget-widget relations.  A 4 widget application, 10 widget-widget relationships.  If the relationships between widgets is our proxy for complexity, you can see how this isn't scaling up linearly.  Without getting into the maths, this is one of those relationships were growth accelerates ahead of a the trusty straight line.</p>
+
+<p>So back to our 10 day project where 10 people can create a 100 widget application.  But now we know that application complexity is based on widget-widget relationships.  So our larger 200 widget application isn't twice as complex, but roughly 4 times harder to make.  We need about 40 people to build it in our alloted 10 days.</p>
+
+<p>This is of course a massive over-simplification.  But it does suggest a reason why a few people can create a simple data application in only a few days, but to implement a complex enterprise-wide core data system it can take hundreds of people and years of time.</p>
+
+<p>Does this mean we trapped by simple maths in to always needing mega-projects to deliver anything of non-trivial complexity?  Maybe.  Or maybe not.  Instead of picturing the widget as small chunk of code doing a task, picture it as a person in a team.  Teams are about inidivduals working together.  Individual = widget.  Working together = widget-widget relationship.  When one person works with another, they need to exchange information and agree on something.  This is why so much energy goes in to ways of working, working practises, working environments, team building etc.  Because these person-person relationships are critical to the productive output of the team.</p>
+
+<p>Consider a Tester and a Developer.  However strong their working relationship it is still likely to take minutes-to-hours to discuss some requirement and agree an approach.  If you had a single person with both tester and developer knowledge, this interation would take place within a single brian and potentially need only seconds-to-minutes.  If you have someone who can make tester, developer and designer decisions, you are replacing 3 sets of minutes-to-hours interactions with a single seconds-to-minutes one.</p>
+
+<p>This is the basis of the escape plan from the large-complex-project-of-doom conundrum.  To tackle a thing of double the complexity, you don't necessarily need quadruple time/people, you could simple double the skill of individuals working on the project.</p>
+
+<p>In practise, this is tricky, because the whole tech industry is set-up around "I am a Data Engineer", "I am a BA", "I am a Tester"...  Individuals have little incentive to become multi-skilled because this isn't how most organisations employ and task people.  Stating it is possible to replace 4 roles with just 2, providing the 2 have multiple skills; or 9 roles with just 3; that is a suggestion somewhere between revolutionary and threating.</p>
+
+<p>But the multi-skilled approach is the basis of some (typically small) companies, and one of the founding philosopies of Versible.  People talk about "T shaped skills", but this is normally in the context of segragated roles.  To truly embrace this, you need to ditch the idea of separate roles.  Not ditch the activity, just the idea it needs a separate person in a separate role.  The benefits multi-skilling increase non-linearily as you add more and more skills.  If the same individual can trade off security, architecture, governance, data modelling, engineering, testing, user acceptance and project timeline considerations you have the potential to be orders of magnitude more productive compaired to a team where each consideration skill sits with a separate person.</p>
+
+                                    <a href="index.html#scaling_complexity" class="special">Back</a>
+                                    
+
+								</div>
+							</div>
+
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
